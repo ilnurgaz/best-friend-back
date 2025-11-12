@@ -23,8 +23,8 @@ const app = express();
 // Используйте cors middleware
 app.use(cors({
   origin: [
-    'http://localhost:8081',              // твой локальный фронтенд
-    'https://best-friend-front.vercel.app' // твой продакшн-фронтенд
+    'http://localhost:8081',             
+    'https://best-friend-front.vercel.app' 
   ],
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
